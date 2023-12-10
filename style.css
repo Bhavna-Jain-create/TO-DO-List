@@ -1,0 +1,15 @@
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+body{background-color: #f0f0f0;}
+.todo-container{max-width: 800px;background-color: white;min-height:600px;margin: auto; border: 1px solid #000;}
+.todo-container h2{font-size: 35px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: #000; background: greenyellow; padding: 30px 20px;}
+.todo-container h3{font-size: 25px;color: #000;font-weight: bold;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 20px 20px 10px;}
+.todo-container input{margin: 0px 20px; padding: 10px; font-size: 15px;}
+.todo-container .btn{font-size: 16px;padding: 10px 30px; background: darkblue; color: #fff; border: 1px solid #fff;}
+.addcont{padding: 0px 20px 20px ;}
+.delbtn{display: block;max-width: 590px; margin: auto;}
+.addcont p{font: 18px; font-family: Arial, Helvetica, sans-serif; color: #000; border: 1px solid #000;padding: 10px;margin: 10px 0px;position: relative;}
+.addcont p button:nth-child(2){right: 65px; }
+.addcont p button{font-size: 15px;color: #000;background-color: aqua;cursor: pointer;}
+.addcont p button:nth-child(3){right: 8px;}
+.addcont input{margin:0px !important; border: 0px !important; padding: 0px;}
+input:focus-visible {outline: 0px !important;}
